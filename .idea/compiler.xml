@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="VocabularyDbAppJPASpring" />
+        <module name="VocabularyWebApp" />
+        <module name="spring-boot-jwt" />
+        <module name="spring-boot-aop" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-aop" target="1.8" />
+      <module name="spring-boot-jwt" target="1.8" />
+      <module name="vocabulary.multimodule" target="1.8" />
+      <module name="VocabularyDbAppJPASpring" target="1.8" />
+      <module name="VocabularyWebApp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="VocabularyDbAppJPASpring" options="-parameters" />
+      <module name="VocabularyWebApp" options="-parameters" />
+      <module name="spring-boot-aop" options="-parameters" />
+      <module name="spring-boot-jwt" options="-parameters" />
+    </option>
+  </component>
+</project>

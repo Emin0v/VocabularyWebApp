@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VocabularyWebApp:war">
+    <output-path>$PROJECT_DIR$/VocabularyWebApp/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>VocabularyWebApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="VocabularyWebApp-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="VocabularyWebApp:war exploded" />
+    </root>
+  </artifact>
+</component>
